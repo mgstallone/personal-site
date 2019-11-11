@@ -1,3 +1,11 @@
 h1 {
-    color: red;
+    color: rgb(4, 0, 255);
 }
+
+table {
+    border-spacing: 25px 0;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
