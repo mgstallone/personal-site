@@ -1,27 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
 h1 {
     color: rgb(4, 0, 255);
-};
+}
 
 h2 {
     color: rgba(91, 111, 199, 0.705);
-};
-
-table {
-    border-spacing: 55px 0;
-};
-
-center {
-    text-align: center;
-};
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-};
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-};
+}
 
 table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-};
+}
+
+td {
+    padding: 25px;
+}
+
+#servicesTableWrapper {
+    width:100%;;
+    height:240px;
+    padding:20px;
+}
+    
+#servicesPricing {
+    width:50%;
+    margin : 0;
+    float : left ;
+}
+    
+#servicesPricingTable {
+    width:50%;
+    margin : 0;
+    float : right ;
+}
